@@ -1,0 +1,14 @@
+Name,Value (in cents)
+$100 Bill,10000
+$50 Bill,5000
+$20 Bill,2000
+$10 Bill,1000
+$5 Bill,500
+$2 Bill,200
+$1 Bill,100
+Dollar Coin,100
+Half Dollar,50
+Quarter,25
+Dime,10
+Nickel,5
+Penny,1
