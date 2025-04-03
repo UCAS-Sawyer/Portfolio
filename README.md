@@ -15,23 +15,19 @@ You pick which program you want to use and then it will run the program.
 
 ## Used Technologies  
 ---
-+ First library in the repository  
-`pip install code for the library`  
++ Matplotlib
+`pip install matplotlib`  
 
-+ Second library in the repository  
-`pip install code for the library`  
++ Numpy  
+`pip install numpy`  
 
-+ Thrid library in the repository  
-`pip install code for the library`  
-
-+ Fourth library in the repository  
-`pip install code for the library`  
++ Faker 
+`pip install faker`  
 
 ## Current Features  
 ---
-+ First feature I am proud of  
-+ Second feature I am pround of  
-+ Third feature I am pround of  
++ Good base menu
++ Calls all the projects with no problem
 
 ## Contributions  
 ---
@@ -39,15 +35,11 @@ Not used for this class.
 
 ## Contributors  
 ---
-+ Person who helped 1 - what they did  
-+ Person who helped 2 - what they did  
-+ Person who helped 3 - what they did  
-+ Person who helped 4 - what they did  
-+ Person who helped 5 - what they did  
++ Copilot - Debugging/problem solving
 
 ## Author's Information  
 ---
-Short paragraph about you(Each member of the group, includes contact for professional)  
+I am a guy in a python class.
 
 ## Change Log  
 ---
