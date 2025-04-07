@@ -1,7 +1,6 @@
 #Sawyer Wood, ProficiencyTest Secret Sypher.
 def main():
     idk = input("\nDo you want to 1. Cipher, 2. Decipher?: ")
-    word = input("\nWhat is the word you want to cipher/decipher?: ")
 
     alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " ", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1"]
     shiftedalphabet = ["c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "a", "b", ":", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "A", "B", "1"]
@@ -38,6 +37,12 @@ def main():
         print(f"\n{decipheredword}")
 
     if idk == str("1"):
+        word = input("\nWhat is the word you want to cipher?: ")
         Cipherify(word)
     elif idk == str("2"):
+        word = input("\nWhat is the word you want to decipher?: ")
         Decipherify(word)
+    else:
+        print("\nInvalid input. Please try again.")
+        main()
+    return
